@@ -1,8 +1,7 @@
 
 #Pasos para ejecutar el código
 
-##Para crear el ambiente virtual
-Descarga el virtual env a través de pip
+Para crear el ambiente virtual descarga la librería "virtualenv" a través de pip
 ```
 pip install virtualenv 
 ```
@@ -22,7 +21,7 @@ Realizar las instalaciones de las dependencias
 pip install -r requirements.txt
 ```
 
-Crear la carpeta .env e instar la llave de la API de OpenAI
+Crear la carpeta *.env* y añadir la siguiente variable
 ```
-
+API_KEY="<La clave que OpenAI te proporcionó>"
 ``` 
