@@ -1,5 +1,7 @@
+# Algunas API's de Chat GPT
+El siguiente código permite ejecutar algunas API's que ofrece la empresa OpenAI, la cual se puede ejecutar de diferentes maneras a través de la terminal. <br> 
 
-# Pasos para ejecutar el código
+## Pasos para ejecutar el código
 **Nota:** Estos pasos son sólo para Windows, si tiene otro sistema operativo el procedimiento es diferente.<br>
 <br>
 Para crear el ambiente virtual descarga la librería "virtualenv" a través de pip:
