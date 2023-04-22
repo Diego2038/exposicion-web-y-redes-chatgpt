@@ -1,6 +1,6 @@
 
 # Pasos para ejecutar el código
-*Nota:* Estos pasos son sólo para Windows, si tiene otro sistema operativo el procedimiento es diferente.<br>
+**Nota:** Estos pasos son sólo para Windows, si tiene otro sistema operativo el procedimiento es diferente.<br>
 <br>
 Para crear el ambiente virtual descarga la librería "virtualenv" a través de pip:
 
