@@ -1,38 +1,51 @@
 
-#Pasos para ejecutar el código
-***Nota:*** Estos pasos son sólo para Windows, si tiene otro sistema operativo el procedimiento es diferente.<br/>
-<br/>
+# Pasos para ejecutar el código
+*Nota:* Estos pasos son sólo para Windows, si tiene otro sistema operativo el procedimiento es diferente.<br>
+<br>
 Para crear el ambiente virtual descarga la librería "virtualenv" a través de pip:
+
 ```
 pip install virtualenv 
 ```
-<br/>
+
+<br>
 Para crear el ambiente virtual con nombre "venv":
+
 ```
 python -m venv venv
 ```
-<br/>
+
+<br>
 Para ejecutar el ambiente virtual (desde la carpeta raiz):
+
 ```
 .\venv\Scripts\activate
 ```
-<br/>
+
+<br>
 Realizar las instalaciones de las dependencias:
+
 ```
 pip install -r requirements.txt
 ```
-<br/>
+
+<br>
 Crear la carpeta *.env* y añadir la siguiente variable:
+
 ```
 API_KEY="<La clave que OpenAI te proporcionó>"
 ``` 
-<br/>
+
+<br>
 Para ejecutar el código del programa:
+
 ```
 python main.py
 ``` 
-<br/>
+
+<br>
 Para cerrar el ambiente virtual:
+
 ```
 deactivate
 ``` 
