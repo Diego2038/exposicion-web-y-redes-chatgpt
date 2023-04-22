@@ -1,17 +1,10 @@
-import openai  
-from dotenv import load_dotenv
-import os
+import openai
 from llamado_api import llamado_api
 
-def mensaje_entrada(elegir_api): 
+def mensaje_entrada(elegir_api, open_ai:openai): 
   print("Escribe cualquier mensaje, para salir de esta opción sólo digita \"-1\"")
   while(True):
-    load_dotenv()
-    OPENAI_API_KEY = os.getenv("API_KEY")
     
-    openai.api_key = OPENAI_API_KEY
-    open_ai = openai 
-
     mensaje = input("Digita tu mensaje: ")
     if( mensaje == "-1"):
       print("Saliste del módulo ")
