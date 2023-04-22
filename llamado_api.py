@@ -8,6 +8,7 @@ def no_encontrado(open_ai, mensaje):
 def llamado_modulo(modulo):
     switcher = {
         '1': modulo_moderation, 
+        '2': modulo_completion,
     }
     return switcher.get(modulo, no_encontrado) 
 
