@@ -1,6 +1,7 @@
 import openai 
 from apis_openai.moderation import modulo_moderation  
 from apis_openai.completion import modulo_completion
+from apis_openai.edit import modulo_edit
 
 def no_encontrado(open_ai, mensaje):
     return "Falta ser implementado por ustedes, equis dé"
@@ -9,6 +10,7 @@ def llamado_modulo(modulo):
     switcher = {
         '1': modulo_moderation, 
         '2': modulo_completion,
+        '3': modulo_edit
     }
     return switcher.get(modulo, no_encontrado) 
 

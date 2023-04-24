@@ -11,7 +11,7 @@ def main():
     open_ai = openai  
     print("A continuación se mostrarán las opciones de API's que tiene para escoger:")
     while(True):
-        print("\n   1) Moderation\n   2) Completion\n   3) <NO IMPLEMENTADO>\n   4) <NO IMPLEMENTADO>\n   5) <NO IMPLEMENTADO>\n")
+        print("\n   1) Moderation\n   2) Completion\n   3) Edit\n   4) <NO IMPLEMENTADO>\n   5) <NO IMPLEMENTADO>\n")
         modulo = input("Digite el módulo que quiere entrar(-1 para terminar el programa): ").strip()
         if (modulo == "-1"):
             break
