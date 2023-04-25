@@ -51,3 +51,10 @@ Para cerrar el ambiente virtual:
 ```
 deactivate
 ``` 
+
+<br>
+Para usar el modulo de transcripción de audio se debe colocar el archivo deseado en la carpeta principal y en el input del mensaje colocar el nombre del archivo y su extensión, ejemplo:
+
+```
+audio.mp3
+```
